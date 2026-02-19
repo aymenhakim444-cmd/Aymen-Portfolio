@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pictures/favicon.ico" type="image/x-icon">
+    <title>Aymen Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <img id="#home" src="./pictures/AH logo.png" class="logo">
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="./my cv/Aymen Hakim CV .pdf">Resume</a>
+        </nav>
+
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Aymen Hakim</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A young man from Casablanca, <span>19</span> years old. I started SoftWare Engineering since 2024 and I'm
+                currently aiming to improve my skills.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/aymen-hakim-2786b53b0/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/aymenhakim444-cmd"><i class='bx bxl-github'></i></a>
+                <a href="https://web.whatsapp.com/+212660034754"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="./my cv/Aymen Hakim CV .pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./pictures/mypic.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./pictures/mypic2.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About
+                <span>
+                    Me
+                </span>
+            </h2>
+            <h3>Full-Stack Developer</h3>
+            <p>
+                Second-year Full Stack development student, motivated and serious, with a good foundation in front-end
+                and back-end web development.
+                <span id="dots">...</span>
+
+                <span id="more" style="display: none;">
+                    Looking for an internship to enhance my technical skills and gain practical professional experience.
+                </span>
+            </p>
+
+            <button onclick="toggleText()" class="btn" id="btn">Read more</button>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">
+            My
+            <span>
+                Projects
+            </span>
+        </h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="./pictures/freelance-project.png" alt="">
+                <div class="projects-layer">
+                    <h4>G-PROject</h4>
+                    <p>Modern project management platform developed
+                    with React and Node.js. This tool allows you to track project progress, budgets, and productivity in real time,
+                    with interactive dashboards and automated statistics.</p>
+                    <a href="https://aymenhakim444-cmd.github.io/Freelance/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="./pictures/freelance-project.png" alt="">
+                <div class="projects-layer">
+                    <h4>CasaBlanca Knight</h4>
+                    <p>Développement d'une application web e-commerce moderne avec React JS, inspirée d'un univers “Knight”. Mise en
+                    place d'un affichage dynamique des produits, avec fonctionnalités de filtrage, tri et gestion complète du panier en
+                    utilisant les Hooks de React. Conception de composants
+                    réutilisables et d'une interface responsive.</p>
+                    <a href=""><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="" id="">
+                <input type="email" placeholder="Email Adress" name="" id="">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="" id="">
+                <input type="text" placeholder="Email Subject" name="" id="">
+            </div>
+            <textarea name="" id="" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Aymen | All Righs Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
